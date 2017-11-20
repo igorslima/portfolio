@@ -1,24 +1,17 @@
-nav{
-	position: fixed; 
-	background-color: #95a5a6;
-	/*left: 85%;*/
-	height: 15%;
-	width: 100%;
-	text-align: center;
+* {
+  box-sizing: border-box; 
 }
-.item-igor{
-	text-align: left;
-	position: relative;
-	top: 39%; /*para navegadores que não suportam a funcao calc*/
-	top: calc(50% - 0.5em); /*para navegadores que suportam a funcao calc*/
+
+body {
+  margin: 0; 
+  font-weight: 500;
+  font-family: 'HelveticaNeue';
 }
-.item-nav{
-	position: relative;
-	top: 39%; /*para navegadores que não suportam a funcao calc*/
-	top: calc(50% - 0.5em); /*para navegadores que suportam a funcao calc*/
-	border-radius: 1.5em;
- 	border: 2px solid #34495e;
- 	margin: 5em;
- 	padding: 1em;
- 	background-color: #34495e;
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  max-width: none;
+  height: 100vh;
 }
+
