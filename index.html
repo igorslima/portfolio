@@ -2,26 +2,38 @@
 <html>
 <head>
 	<title>Igor Lima - Portfolio</title>
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta charset="utf-8">
+
 </head>
 <body>
 
-	<header>
-		<nav class="blue darken-3">
-		    <div class="nav-wrapper">
-		    <a href="#" class="brand-logo">Igor Lima</a>
-		    <ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a href="#sobre-mim" class="scrollSuave">Sobre mim</a></li>
-				<li><a href="#portfolio" class="scrollSuave">Portfolio</a></li>
-				<li><a href="#habilidades" class="scrollSuave">Habilidades</a></li>
-				<li><a href="#contato" class="scrollSuave">Contato</a></li>	
-			</ul>
-			</div>
-		</nav>
-	</header>
+	<div class="nav-fixed">
+ 	<nav class="blue darken-3">
+	    <div class="nav-wrapper nav-fixed">
+	        <a href="#" class="brand-logo center">Igor</a>
+	        <a href="#" data-activates="menu-mobile" class="button-collapse">
+	            <i class="material-icons">menu</i>
+	        </a>
+	        <ul class="right hide-on-med-and-down">
+	            <li><a href="#sobre-mim" class="scroll-suave">Sobre mim</a></li>
+	            <li><a href="#portfolio" class="scroll-suave">Porfolio</a></li>
+	            <li><a href="#habilidades" class="scroll-suave">Habilidades</a></li>
+	            <li><a href="#contato" class="scroll-suave">Contato</a></li>
+	        </ul>
+	        <ul class="side-nav" id="menu-mobile">
+	            <li><a href="#sobre-mim" class="scroll-suave close-nav">Sobre mim</a></li>
+	            <li><a href="#portfolio" class="scroll-suave close-nav">Porfolio</a></li>
+	            <li><a href="#habilidades" class="scroll-suave close-nav">Habilidades</a></li>
+	            <li><a href="#contato" class="scroll-suave close-nav">Contato</a></li>
+	        </ul>
+	    </div>
+	</nav>
+	</div>
 	<section id="sobre-mim">
 		<h3>Sobre mim</h3>
 		Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Manduma pindureta quium dia nois paga. Interagi no mé, cursus quis, vehicula ac nisi. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
@@ -38,7 +50,8 @@
 		<h3>Contato</h3>
 		Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Manduma pindureta quium dia nois paga. Interagi no mé, cursus quis, vehicula ac nisi. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
 	</section>
-	<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
