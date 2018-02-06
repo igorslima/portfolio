@@ -11,11 +11,14 @@ $('.scroll-suave').click(function() {
 // Abrir side-nav mobile
 $(function(){
     $(".button-collapse").sideNav();
-    console.log("show");
 });
 
 // Fechar side-nave mobile
  $(function(){
      $(".close-nav").sideNav("hide");
-     console.log("hide");
  });
+
+ // Fechar side-nav mobile quando clicar
+$(".scroll-suave").click(function(){
+	$(".close-nav").sideNav("hide");
+})

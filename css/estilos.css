@@ -1,17 +1,73 @@
 * {
-  box-sizing: border-box; 
+	box-sizing: border-box; 
 }
 
 body {
-  margin: 0; 
-  font-weight: 500;
-  font-family: 'HelveticaNeue';
+	margin: 0; 
+	font-weight: 500;
+	font-family: 'HelveticaNeue';
 }
 
 section {
-  width: 100%;
-  padding: 0 7%;
-  max-width: none;
-  height: 100vh;
+	width: 100%;
+	max-width: none;
+	height: 100%;
 }
 
+li img{
+	height: 40px;
+}
+footer {
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+ul li{
+	display: inline;
+}
+body, html {
+	margin:0;
+	height: 100%;
+}
+section {
+	height: 100%;
+	text-align: center;
+	background-color: #546e7a;
+}
+#sobre-mim{
+	background-image: url(../img/home.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	background-color: #263238;
+}
+.texto{
+	position: absolute;
+	text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 45em;
+    height: 20em;
+    margin-top: -10em; /*set to a negative number 1/2 of your height*/
+    margin-left: -22.5em; /*set to a negative number 1/2 of your width*/
+    /*border: 2px solid #ccc;*/
+    color: white;
+    background-color: rgba(1,1,1,0.5);
+}
+.inner-texto{
+	position: absolute;
+	text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 20em;
+    height: 10em;
+    margin-top: -5em; /*set to a negative number 1/2 of your height*/
+    margin-left: -10em; /*set to a negative number 1/2 of your width*/
+}
