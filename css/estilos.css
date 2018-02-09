@@ -2,13 +2,11 @@
 	box-sizing: border-box; 
 	font-family: 'Josefin Sans', sans-serif;
 }
-
 body {
 	margin: 0; 
 	font-weight: 500;
 	font-family: 'HelveticaNeue';
 }
-
 section {
 	width: 100%;
 	max-width: none;
@@ -29,11 +27,10 @@ ul li{
 body, html {
 	margin:0;
 	height: 100%;
-	/*text-align: center;*/
+	text-align: center;
 }
 section {
 	background-color: #546e7a;
-
 }
 #inicio{
 	background-image: url(../img/home.jpg);
@@ -57,9 +54,8 @@ nav{
     left: 50%;
     width: 45em;
     height: 20em;
-    margin-top: -10em; /*set to a negative number 1/2 of your height*/
-    margin-left: -22.5em; /*set to a negative number 1/2 of your width*/
-    /*border: 2px solid #ccc;*/
+    margin-top: -10em;
+    margin-left: -22.5em; 
     color: white;
     background-color: rgba(1,1,1,0.5);
 }
@@ -70,6 +66,13 @@ nav{
     left: 50%;
     width: 20em;
     height: 10em;
-    margin-top: -5em; /*set to a negative number 1/2 of your height*/
-    margin-left: -10em; /*set to a negative number 1/2 of your width*/
+    margin-top: -5em;
+    margin-left: -10em;
+}
+
+.projetos{
+	height: auto;
+}
+.row{
+	margin-bottom: 0px;
 }
