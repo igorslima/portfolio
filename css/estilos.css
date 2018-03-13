@@ -76,3 +76,17 @@ nav{
 .row{
 	margin-bottom: 0px;
 }
+
+#habilidades{
+
+}
+ol{
+	list-style-type: disc;
+}
+li{
+	list-style-position: inside;
+}
+
+section div.container{
+	text-align: left;
+}
